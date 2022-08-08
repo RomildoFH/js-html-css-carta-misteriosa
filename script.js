@@ -53,3 +53,5 @@ function personalizarPalavra () {
     })
 }
 personalizarPalavra ();
+
+//Inserindo alteração genérica para testar avaliador github;
