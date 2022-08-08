@@ -5,6 +5,7 @@ let arrayEstilo = ['newspaper', 'magazine1' , 'magazine2'];
 let arrayTamanho = ['medium', 'big', 'reallybig'];
 let arrayRotacao = ['rotateleft', 'rotateright'];
 let arrayInclinacao = ['skewleft', 'skewright'];
+let contador = document.getElementById('carta-contador');
 
 //1 - Crie um input com o ID carta-texto onde a pessoa usuária poderá digitar o conteúdo da carta.
 
@@ -23,7 +24,8 @@ function gerandoCarta () {
       }
     //Fim do código refatorado
     palavrasArray = textoValue.split(" ");
-    console.log(palavrasArray);
+    contador.innerHTML = palavrasArray.length;
+    // console.log(palavrasArray);
     for (index = 0; index < palavrasArray.length; index ++) {        
         let spanTexto = document.createElement('span')
         spanTexto.innerText = palavrasArray[index]
@@ -52,3 +54,8 @@ function personalizarPalavra () {
 }
 personalizarPalavra ();
 
+//Requisito 18 - Crie um parágrafo com o ID carta-contador que deve contar o número de palavras geradas naquela carta.
+
+function contadorPalavras () {
+
+}

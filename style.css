@@ -60,3 +60,7 @@
 #carta-preview {
     height: max-content;
 }
+
+.info {
+    display: inline-block;
+}
