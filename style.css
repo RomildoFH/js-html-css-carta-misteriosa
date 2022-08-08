@@ -2,6 +2,8 @@
     background-color: rgb(250, 235, 215);
     font-family: Times New Roman;
     font-weight: 700;
+    display: inline-block;
+    margin: 3px;
 }
 
 .magazine1 {
@@ -10,6 +12,8 @@
     font-family: Verdana;
     font-weight: 900;
     text-transform: uppercase;
+    display: inline-block;
+    margin: 3px;
 }
 
 .magazine2 {
@@ -17,6 +21,9 @@
     color: rgb(255, 0, 255);
     font-family: Verdana;
     font-weight: 900;
+    text-shadow: 1px 1px white;
+    display: inline-block;
+    margin: 3px;
 }
 
 .medium {
@@ -48,4 +55,8 @@
 
 .skewright {
     transform: matrix(1, 0, -0.176327, 1, 0, 0);
+}
+
+#carta-preview {
+    height: max-content;
 }
