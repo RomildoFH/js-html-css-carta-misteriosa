@@ -53,9 +53,3 @@ function personalizarPalavra () {
     })
 }
 personalizarPalavra ();
-
-//Requisito 18 - Crie um parágrafo com o ID carta-contador que deve contar o número de palavras geradas naquela carta.
-
-function contadorPalavras () {
-
-}
